@@ -6,4 +6,8 @@ class ApplicationController < Sinatra::Base
   get '/' do
     erb :index
   end
+
+	get '/1leave' do
+	erb :"1leave"
+	end
 end
